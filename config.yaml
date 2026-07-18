@@ -1,0 +1,74 @@
+# HN Monitor — AI/创业新闻监控
+# 每天跑一次，抓取 HN 首页 + /newest，Gemini 评分+摘要
+
+filters:
+  required_keywords:
+    - "AI"
+    - "LLM"
+    - "GPT"
+    - "Claude"
+    - "Gemini"
+    - "OpenAI"
+    - "Anthropic"
+    - "DeepSeek"
+    - "agent"
+    - "Agents"
+    - "RAG"
+    - "vector"
+    - "embedding"
+    - "fine-tun"
+    - "training"
+    - "inference"
+    - "transformer"
+    - "diffusion"
+    - "startup"
+    - "funding"
+    - "raise"
+    - "Series"
+    - "seed"
+    - "valuation"
+    - "acquisition"
+    - "acquired"
+    - "IPO"
+    - "YC"
+    - "launch"
+    - "open source"
+    - "model"
+    - "chatbot"
+    - "copilot"
+    - "autonomous"
+    - "robot"
+    - "NVIDIA"
+    - "GPU"
+    - "H100"
+    - "B200"
+    - "TPU"
+    - "datacenter"
+    - "infra"
+    - "SaaS"
+    - "enterprise"
+    - "billion"
+    - "million"
+  blocked_keywords:
+    - "Show HN"
+    - "Ask HN"
+    - "Tell HN"
+    - "Who is hiring"
+
+priorities:
+  - "大模型/LLM 相关（新模型发布、技术突破、评测对比）"
+  - "AI 创业公司融资（种子轮/A轮/B轮/收购/IPO）"
+  - "AI Agent/自主智能体相关"
+  - "AI 基础设施（GPU/算力/数据中心）"
+  - "开源 AI 项目/工具发布"
+
+storage:
+  provider: "json"
+  output_dir: "data"
+
+ai:
+  enabled: true
+  model: "gemini-3.1-flash-lite"
+  min_score: 50
+  rate_limit_seconds: 2
+  batch_size: 5
