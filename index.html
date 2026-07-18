@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HN Monitor — AI/创业新闻监控</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --card-bg: #161b22;
+    --border: #30363d;
+    --text: #c9d1d9;
+    --text-secondary: #8b949e;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --orange: #d2991d;
+    --red: #f85149;
+    --purple: #a371f7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    text-align: center;
+    padding: 40px 0 20px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 24px;
+  }
+  header h1 { font-size: 28px; margin-bottom: 8px; }
+  header p { color: var(--text-secondary); font-size: 14px; }
+  .controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .controls select, .controls input {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .controls select { min-width: 140px; }
+  .stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  .stat {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    text-align: center;
+    min-width: 80px;
+  }
+  .stat .num { font-size: 24px; font-weight: 700; }
+  .stat .label { font-size: 12px; color: var(--text-secondary); }
+  .story {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    transition: border-color 0.2s;
+  }
+  .story:hover { border-color: var(--accent); }
+  .story-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .story-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    flex: 1;
+  }
+  .story-title:hover { text-decoration: underline; }
+  .story-meta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+  }
+  .story-meta span { display: flex; align-items: center; gap: 4px; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .badge-LLM { background: rgba(88,166,255,0.15); color: var(--accent); }
+  .badge-Funding { background: rgba(63,185,80,0.15); color: var(--green); }
+  .badge-Agent { background: rgba(163,113,247,0.15); color: var(--purple); }
+  .badge-Infra { background: rgba(210,153,29,0.15); color: var(--orange); }
+  .badge-OpenSource { background: rgba(139,148,158,0.15); color: var(--text-secondary); }
+  .badge-Other { background: rgba(139,148,158,0.1); color: var(--text-secondary); }
+  .score {
+    font-size: 20px;
+    font-weight: 700;
+    min-width: 40px;
+    text-align: center;
+  }
+  .score-high { color: var(--green); }
+  .score-mid { color: var(--orange); }
+  .score-low { color: var(--red); }
+  .story-summary {
+    font-size: 14px;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  .story-notes {
+    font-size: 13px;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-secondary);
+  }
+  footer {
+    text-align: center;
+    padding: 40px 0;
+    color: var(--text-secondary);
+    font-size: 13px;
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+  }
+  footer a { color: var(--accent); }
+  @media (max-width: 600px) {
+    body { padding: 12px; }
+    .story-header { flex-direction: column; }
+    .score { align-self: flex-end; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🔍 HN Monitor</h1>
+  <p>AI/创业新闻监控 · 每日自动抓取 Hacker News · Gemini 评分筛选</p>
+</header>
+
+<div class="controls">
+  <select id="dateSelect" onchange="loadData()">
+    <option value="">加载中...</option>
+  </select>
+  <select id="categoryFilter" onchange="render()">
+    <option value="all">全部分类</option>
+    <option value="LLM">🤖 LLM</option>
+    <option value="Funding">💰 融资</option>
+    <option value="Agent">🕵️ Agent</option>
+    <option value="Infra">🏗️ 基础设施</option>
+    <option value="OpenSource">📖 开源</option>
+    <option value="Other">📋 其他</option>
+  </select>
+  <input type="text" id="searchInput" placeholder="搜索标题..." oninput="render()">
+</div>
+
+<div class="stats" id="stats"></div>
+<div id="stories"></div>
+
+<footer>
+  <p>Powered by <a href="https://github.com/binbinao/hn-monitor" target="_blank">hn-monitor</a> · 
+  Data from <a href="https://news.ycombinator.com" target="_blank">Hacker News</a> · 
+  AI by Gemini</p>
+</footer>
+
+<script>
+let allData = [];
+let currentDate = '';
+
+// 从 feed.json 加载日期列表
+async function loadDates() {
+  try {
+    const resp = await fetch('data/feed.json');
+    const feed = await resp.json();
+    // 提取所有唯一日期
+    const dates = [...new Set(feed.map(item => item.date_found))].sort().reverse();
+    const select = document.getElementById('dateSelect');
+    select.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join('');
+    if (dates.length > 0) {
+      currentDate = dates[0];
+      select.value = currentDate;
+    }
+    allData = feed;
+    render();
+  } catch (e) {
+    console.error('Failed to load feed:', e);
+    document.getElementById('dateSelect').innerHTML = '<option>加载失败</option>';
+    document.getElementById('stories').innerHTML = '<div class="empty">⚠️ 数据加载失败，请检查 data/feed.json 是否存在</div>';
+  }
+}
+
+async function loadData() {
+  currentDate = document.getElementById('dateSelect').value;
+  render();
+}
+
+function render() {
+  const category = document.getElementById('categoryFilter').value;
+  const search = document.getElementById('searchInput').value.toLowerCase();
+  
+  let filtered = allData.filter(item => item.date_found === currentDate);
+  
+  if (category !== 'all') {
+    filtered = filtered.filter(item => item.ai_category === category);
+  }
+  
+  if (search) {
+    filtered = filtered.filter(item => item.name.toLowerCase().includes(search));
+  }
+  
+  // Stats
+  const total = allData.filter(i => i.date_found === currentDate).length;
+  const llm = allData.filter(i => i.date_found === currentDate && i.ai_category === 'LLM').length;
+  const funding = allData.filter(i => i.date_found === currentDate && i.ai_category === 'Funding').length;
+  const agent = allData.filter(i => i.date_found === currentDate && i.ai_category === 'Agent').length;
+  const opensource = allData.filter(i => i.date_found === currentDate && i.ai_category === 'OpenSource').length;
+  
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><div class="num">${total}</div><div class="label">总计</div></div>
+    <div class="stat"><div class="num">${llm}</div><div class="label">🤖 LLM</div></div>
+    <div class="stat"><div class="num">${funding}</div><div class="label">💰 融资</div></div>
+    <div class="stat"><div class="num">${agent}</div><div class="label">🕵️ Agent</div></div>
+    <div class="stat"><div class="num">${opensource}</div><div class="label">📖 开源</div></div>
+  `;
+  
+  // Stories
+  if (filtered.length === 0) {
+    document.getElementById('stories').innerHTML = '<div class="empty">📭 没有匹配的故事</div>';
+    return;
+  }
+  
+  document.getElementById('stories').innerHTML = filtered.map(item => {
+    const score = item.ai_score || 0;
+    const scoreClass = score >= 80 ? 'score-high' : score >= 60 ? 'score-mid' : 'score-low';
+    const cat = item.ai_category || 'Other';
+    const catLabel = {LLM:'🤖 LLM', Funding:'💰 融资', Agent:'🕵️ Agent', Infra:'🏗️ 基础设施', OpenSource:'📖 开源', Other:'📋 其他'}[cat] || cat;
+    
+    return `
+      <div class="story">
+        <div class="story-header">
+          <a class="story-title" href="${item.url || item.hn_url}" target="_blank">${escapeHtml(item.name)}</a>
+          <div class="score ${scoreClass}">${score}</div>
+        </div>
+        <div class="story-meta">
+          <span class="badge badge-${cat}">${catLabel}</span>
+          <span>📊 ${item.score || 0} pts</span>
+          <span>💬 ${item.comments || 0} comments</span>
+          <span>👤 ${escapeHtml(item.author || '')}</span>
+          ${item.hn_url ? `<span><a href="${item.hn_url}" target="_blank" style="color:var(--text-secondary)">HN讨论 →</a></span>` : ''}
+        </div>
+        ${item.ai_summary ? `<div class="story-summary">${escapeHtml(item.ai_summary)}</div>` : ''}
+        ${item.ai_notes ? `<div class="story-notes">${escapeHtml(item.ai_notes)}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+// Init
+loadDates();
+</script>
+</body>
+</html>
