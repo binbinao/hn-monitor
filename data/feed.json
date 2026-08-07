@@ -1,5 +1,445 @@
 [
   {
+    "name": "What it takes to build agent infrastructure yourself",
+    "url": "https://twitter.com/harsehaj/status/2079593790814527998",
+    "hn_url": "https://news.ycombinator.com/item?id=49204632",
+    "source": "HN New",
+    "score": 1,
+    "comments": 0,
+    "author": "gmays",
+    "date_found": "2026-08-07",
+    "timestamp": 1786063855
+  },
+  {
+    "name": "Open source Cloud AI agents",
+    "url": "https://www.krowoc.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=49204605",
+    "source": "HN New",
+    "score": 1,
+    "comments": 0,
+    "author": "nikonruslan7",
+    "date_found": "2026-08-07",
+    "timestamp": 1786063605
+  },
+  {
+    "name": "New Orleans will use AI to answer 911 calls instead of a human",
+    "url": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/",
+    "hn_url": "https://news.ycombinator.com/item?id=49204546",
+    "source": "HN New",
+    "score": 3,
+    "comments": 0,
+    "author": "champagnepapi",
+    "date_found": "2026-08-07",
+    "timestamp": 1786063050
+  },
+  {
+    "name": "Meta fined $567M in largest child safety ruling against social media giant",
+    "url": "https://www.bbc.com/news/articles/cd7lz3wr2rlo",
+    "hn_url": "https://news.ycombinator.com/item?id=49204501",
+    "source": "HN New",
+    "score": 5,
+    "comments": 0,
+    "author": "tartoran",
+    "date_found": "2026-08-07",
+    "timestamp": 1786062609
+  },
+  {
+    "name": "European firms afraid of US tech kill switch but haven't made an escape plan",
+    "url": "https://www.theregister.com/off-prem/2026/08/06/european-firms-afraid-of-us-tech-kill-switch-but-havent-made-an-escape-plan/5284030",
+    "hn_url": "https://news.ycombinator.com/item?id=49204496",
+    "source": "HN New",
+    "score": 1,
+    "comments": 0,
+    "author": "gpi",
+    "date_found": "2026-08-07",
+    "timestamp": 1786062541
+  },
+  {
+    "name": "All Agent Skills",
+    "url": "https://allagentskills.com",
+    "hn_url": "https://news.ycombinator.com/item?id=49204488",
+    "source": "HN New",
+    "score": 3,
+    "comments": 0,
+    "author": "Diablo556",
+    "date_found": "2026-08-07",
+    "timestamp": 1786062510
+  },
+  {
+    "name": "Tracely – Turn AI agent production failures into CI regression tests",
+    "url": "https://tracely-studio.xyz/",
+    "hn_url": "https://news.ycombinator.com/item?id=49204474",
+    "source": "HN New",
+    "score": 2,
+    "comments": 0,
+    "author": "jwuthri",
+    "date_found": "2026-08-07",
+    "timestamp": 1786062330
+  },
+  {
+    "name": "Trump's AI Framework Is So Bad They Won't Show You What's in It",
+    "url": "https://www.techdirt.com/2026/08/06/trumps-ai-framework-is-so-bad-they-wont-show-you-whats-in-it/",
+    "hn_url": "https://news.ycombinator.com/item?id=49204405",
+    "source": "HN New",
+    "score": 3,
+    "comments": 0,
+    "author": "cdrnsf",
+    "date_found": "2026-08-07",
+    "timestamp": 1786061588
+  },
+  {
+    "name": "One Startup Built a (Mostly) China-Free Robot",
+    "url": "https://www.wired.com/story/how-one-startup-built-a-mostly-china-free-robot/",
+    "hn_url": "https://news.ycombinator.com/item?id=49204391",
+    "source": "HN New",
+    "score": 3,
+    "comments": 0,
+    "author": "dwa3592",
+    "date_found": "2026-08-07",
+    "timestamp": 1786061457
+  },
+  {
+    "name": "OpenAI Response to Apple [pdf]",
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.59.0.pdf",
+    "hn_url": "https://news.ycombinator.com/item?id=49204321",
+    "source": "HN New",
+    "score": 3,
+    "comments": 0,
+    "author": "sanj",
+    "date_found": "2026-08-07",
+    "timestamp": 1786060873
+  },
+  {
+    "name": "See inside your agents to fix them",
+    "url": "https://lexifina.com/blog/see-inside-your-agents-to-fix-them",
+    "hn_url": "https://news.ycombinator.com/item?id=49204271",
+    "source": "HN New",
+    "score": 2,
+    "comments": 0,
+    "author": "alansaber",
+    "date_found": "2026-08-07",
+    "timestamp": 1786060512
+  },
+  {
+    "name": "Objects That Explain America",
+    "url": "https://www.nytimes.com/interactive/2026/08/04/opinion/museum-of-america.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49204211",
+    "source": "HN New",
+    "score": 2,
+    "comments": 0,
+    "author": "mooreds",
+    "date_found": "2026-08-07",
+    "timestamp": 1786060048
+  },
+  {
+    "name": "Google Shifts AI Power Back to Brin as DeepMind's Hassabis Steps Aside",
+    "url": "https://www.ft.com/content/1453e9c2-4922-482f-8720-0bafd7e07df7",
+    "hn_url": "https://news.ycombinator.com/item?id=49204210",
+    "source": "HN New",
+    "score": 2,
+    "comments": 1,
+    "author": "karakoram",
+    "date_found": "2026-08-07",
+    "timestamp": 1786060046
+  },
+  {
+    "name": "Arbitrage Exists Between Kalshi and Polymarket but You Can't Exploit It",
+    "url": "https://www.zhinit.dev/blog/kalshi-polymarket-arbitrage",
+    "hn_url": "https://news.ycombinator.com/item?id=49204209",
+    "source": "HN New",
+    "score": 3,
+    "comments": 0,
+    "author": "zhinit",
+    "date_found": "2026-08-07",
+    "timestamp": 1786060040
+  },
+  {
+    "name": "The Monkey Supply Chain",
+    "url": "https://www.chinatalk.media/p/the-monkey-supply-chain",
+    "hn_url": "https://news.ycombinator.com/item?id=49204128",
+    "source": "HN New",
+    "score": 2,
+    "comments": 0,
+    "author": "chirau",
+    "date_found": "2026-08-07",
+    "timestamp": 1786059464
+  },
+  {
+    "name": "Quake: Dawn of the Machine – Launch Trailer [video]",
+    "url": "https://www.youtube.com/watch?v=2Uf4PcgE8gA",
+    "hn_url": "https://news.ycombinator.com/item?id=49204077",
+    "source": "HN New",
+    "score": 1,
+    "comments": 0,
+    "author": "boredemployee",
+    "date_found": "2026-08-07",
+    "timestamp": 1786059154
+  },
+  {
+    "name": "Trump again tries to limit US birthright citizenship with new executive orders",
+    "url": "https://www.bbc.com/news/articles/cj63966j95yo",
+    "hn_url": "https://news.ycombinator.com/item?id=49204046",
+    "source": "HN Top",
+    "score": 26,
+    "comments": 1,
+    "author": "samaysharma",
+    "date_found": "2026-08-07",
+    "timestamp": 1786058955
+  },
+  {
+    "name": "Airlines Push Back Against ICE Enforcement at Airports",
+    "url": "https://www.wsj.com/business/airlines/airlines-push-back-against-ice-enforcement-at-airports-50a49ff0",
+    "hn_url": "https://news.ycombinator.com/item?id=49203853",
+    "source": "HN New",
+    "score": 4,
+    "comments": 0,
+    "author": "petethomas",
+    "date_found": "2026-08-07",
+    "timestamp": 1786057573
+  },
+  {
+    "name": "Prompt Injection Vulnerability in Ollama, Gemma4 and HuggingFace's Transformers",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vhivsb/prompt_injection_in_ollama_gemma4_and/",
+    "hn_url": "https://news.ycombinator.com/item?id=49203819",
+    "source": "HN New",
+    "score": 2,
+    "comments": 1,
+    "author": "pavelai",
+    "date_found": "2026-08-07",
+    "timestamp": 1786057390
+  },
+  {
+    "name": "The Challenger Launch Decision",
+    "url": "https://press.uchicago.edu/ucp/books/book/chicago/C/bo22781921.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49203815",
+    "source": "HN New",
+    "score": 2,
+    "comments": 1,
+    "author": "gregsadetsky",
+    "date_found": "2026-08-07",
+    "timestamp": 1786057351
+  },
+  {
+    "name": "Intuitize – The Thoughtful AI",
+    "url": "https://intuitize.pages.dev/",
+    "hn_url": "https://news.ycombinator.com/item?id=49203806",
+    "source": "HN New",
+    "score": 2,
+    "comments": 0,
+    "author": "telui",
+    "date_found": "2026-08-07",
+    "timestamp": 1786057277
+  },
+  {
+    "name": "The energy use of agentic AI",
+    "url": "https://www.theclimatebrink.com/p/the-real-energy-use-of-agentic-ai",
+    "hn_url": "https://news.ycombinator.com/item?id=49203792",
+    "source": "HN New",
+    "score": 2,
+    "comments": 0,
+    "author": "alphabetatango",
+    "date_found": "2026-08-07",
+    "timestamp": 1786057158
+  },
+  {
+    "name": "An Agentic IDE That Builds Itself",
+    "url": "https://www.sawyerhood.com/blog/an-agentic-ide-that-builds-itself",
+    "hn_url": "https://news.ycombinator.com/item?id=49203790",
+    "source": "HN New",
+    "score": 6,
+    "comments": 0,
+    "author": "sawyerjhood",
+    "date_found": "2026-08-07",
+    "timestamp": 1786057145
+  },
+  {
+    "name": "Social Media AI Agent That Works over WhatsApp",
+    "url": "https://www.youtube.com/watch?v=J9TJciv_hxc",
+    "hn_url": "https://news.ycombinator.com/item?id=49203764",
+    "source": "HN New",
+    "score": 1,
+    "comments": 1,
+    "author": "jflynn2",
+    "date_found": "2026-08-07",
+    "timestamp": 1786056980
+  },
+  {
+    "name": "0-day security update available for Metabase",
+    "url": "https://www.metabase.com/blog/security-update",
+    "hn_url": "https://news.ycombinator.com/item?id=49203763",
+    "source": "HN New",
+    "score": 3,
+    "comments": 0,
+    "author": "garyhtou",
+    "date_found": "2026-08-07",
+    "timestamp": 1786056978
+  },
+  {
+    "name": "OpenAI's ring-shaped smart speaker will reportedly cost between $300 and $400",
+    "url": "https://www.engadget.com/2232108/openai-s-ring-shaped-smart-speaker-will-reportedly-cost-between-300-and-400/",
+    "hn_url": "https://news.ycombinator.com/item?id=49203612",
+    "source": "HN New",
+    "score": 6,
+    "comments": 4,
+    "author": "prng2021",
+    "date_found": "2026-08-07",
+    "timestamp": 1786055988
+  },
+  {
+    "name": "Blasting the Air in Front of Hypersonic Vehicles with Lasers Reduces Drag",
+    "url": "https://www.twz.com/33859/blasting-the-air-in-front-of-hypersonic-vehicles-with-lasers-could-unlock-unprecedented-speeds",
+    "hn_url": "https://news.ycombinator.com/item?id=49203507",
+    "source": "HN Top",
+    "score": 10,
+    "comments": 2,
+    "author": "delichon",
+    "date_found": "2026-08-07",
+    "timestamp": 1786055324
+  },
+  {
+    "name": "OpenAI and four rivals just agreed on one standard for AI agents",
+    "url": "https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp",
+    "hn_url": "https://news.ycombinator.com/item?id=49203443",
+    "source": "HN Top",
+    "score": 15,
+    "comments": 2,
+    "author": "FireBeyond",
+    "date_found": "2026-08-07",
+    "timestamp": 1786054892
+  },
+  {
+    "name": "OpenAI's latest math breakthroughs commit research misconduct, experts say",
+    "url": "https://www.scientificamerican.com/article/openais-latest-math-breakthroughs-commit-research-misconduct-experts-say/",
+    "hn_url": "https://news.ycombinator.com/item?id=49202980",
+    "source": "HN Top",
+    "score": 20,
+    "comments": 7,
+    "author": "beardyw",
+    "date_found": "2026-08-07",
+    "timestamp": 1786052455
+  },
+  {
+    "name": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+    "url": "https://www.aleksagordic.com/blog/vllm",
+    "hn_url": "https://news.ycombinator.com/item?id=49202852",
+    "source": "HN Top",
+    "score": 51,
+    "comments": 2,
+    "author": "sebg",
+    "date_found": "2026-08-07",
+    "timestamp": 1786051821
+  },
+  {
+    "name": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+    "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+    "hn_url": "https://news.ycombinator.com/item?id=49201970",
+    "source": "HN Top",
+    "score": 330,
+    "comments": 261,
+    "author": "itvision",
+    "date_found": "2026-08-07",
+    "timestamp": 1786047791
+  },
+  {
+    "name": "xAI, SpaceX, and the Race for AI Buildout",
+    "url": "https://illegal.solutions/posts/xai_pollution",
+    "hn_url": "https://news.ycombinator.com/item?id=49201342",
+    "source": "HN Top",
+    "score": 132,
+    "comments": 108,
+    "author": "speckx",
+    "date_found": "2026-08-07",
+    "timestamp": 1786045125
+  },
+  {
+    "name": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+    "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+    "hn_url": "https://news.ycombinator.com/item?id=49200652",
+    "source": "HN Top",
+    "score": 419,
+    "comments": 270,
+    "author": "apitman",
+    "date_found": "2026-08-07",
+    "timestamp": 1786041889
+  },
+  {
+    "name": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+    "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+    "hn_url": "https://news.ycombinator.com/item?id=49199357",
+    "source": "HN Top",
+    "score": 141,
+    "comments": 100,
+    "author": "tedsanders",
+    "date_found": "2026-08-07",
+    "timestamp": 1786035724
+  },
+  {
+    "name": "Dress made of living mycelium can renew and repair itself",
+    "url": "https://www.dezeen.com/2026/08/05/dress-living-mycelium-renew-repair/",
+    "hn_url": "https://news.ycombinator.com/item?id=49199051",
+    "source": "HN Top",
+    "score": 80,
+    "comments": 48,
+    "author": "speckx",
+    "date_found": "2026-08-07",
+    "timestamp": 1786034366
+  },
+  {
+    "name": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+    "url": "https://provenmetal.com",
+    "hn_url": "https://news.ycombinator.com/item?id=49198464",
+    "source": "HN Top",
+    "score": 185,
+    "comments": 129,
+    "author": "willcarkner",
+    "date_found": "2026-08-07",
+    "timestamp": 1786031955
+  },
+  {
+    "name": "GitHub Actions and Pages are experiencing degraded availability",
+    "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+    "hn_url": "https://news.ycombinator.com/item?id=49198302",
+    "source": "HN Top",
+    "score": 313,
+    "comments": 264,
+    "author": "Footkerchief",
+    "date_found": "2026-08-07",
+    "timestamp": 1786031378
+  },
+  {
+    "name": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+    "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+    "hn_url": "https://news.ycombinator.com/item?id=49195468",
+    "source": "HN Top",
+    "score": 248,
+    "comments": 190,
+    "author": "Wirbelwind",
+    "date_found": "2026-08-07",
+    "timestamp": 1786017487
+  },
+  {
+    "name": "On non-rooted Android 17, ADB uninstall of system apps fails",
+    "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/1426",
+    "hn_url": "https://news.ycombinator.com/item?id=49193173",
+    "source": "HN Top",
+    "score": 210,
+    "comments": 171,
+    "author": "microtonal",
+    "date_found": "2026-08-07",
+    "timestamp": 1785997482
+  },
+  {
+    "name": "LLMs won't break symmetric crypto",
+    "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+    "hn_url": "https://news.ycombinator.com/item?id=49191365",
+    "source": "HN Top",
+    "score": 73,
+    "comments": 95,
+    "author": "rowbin",
+    "date_found": "2026-08-07",
+    "timestamp": 1785980346
+  },
+  {
     "name": "An AI model from Meta also hacked another company during testing",
     "url": "https://www.cnn.com/2026/08/05/tech/meta-ai-hacking",
     "hn_url": "https://news.ycombinator.com/item?id=49190997",
@@ -1635,6 +2075,17 @@
     "ai_notes": "高度契合用户对 AI Agent 的关注，探讨了智能体演进对工程师角色的深远影响。"
   },
   {
+    "name": "There Will Come Soft Rains (1950) [pdf]",
+    "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+    "hn_url": "https://news.ycombinator.com/item?id=49162653",
+    "source": "HN Top",
+    "score": 443,
+    "comments": 438,
+    "author": "pmg101",
+    "date_found": "2026-08-07",
+    "timestamp": 1785799493
+  },
+  {
     "name": "AI First Ethical Code",
     "url": "https://lastcopy.ai/code/70",
     "hn_url": "https://news.ycombinator.com/item?id=49162497",
@@ -2533,6 +2984,17 @@
     "ai_summary": "探讨了开发者工具应当开源的必要性与哲学思考。",
     "ai_category": "OpenSource",
     "ai_notes": "虽然属于开源范畴，但偏向于行业观点而非具体的 AI 技术实现，相关性中等。"
+  },
+  {
+    "name": "Poles of Inaccessibility in the San Gabriel Mountains (2015)",
+    "url": "https://notes.secretsauce.net/notes/2015/05/06_poles-of-inaccessibility-in-the-san-gabriel-mountains.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49146240",
+    "source": "HN Top",
+    "score": 31,
+    "comments": 21,
+    "author": "dima55",
+    "date_found": "2026-08-07",
+    "timestamp": 1785690186
   },
   {
     "name": "The Rise of Million-Dollar Companies with Just One Employee",
@@ -3510,6 +3972,17 @@
     "ai_notes": "涉及开源模型与AI Agent在软件工程任务中的表现对比，具有较高的技术参考价值。"
   },
   {
+    "name": "The Sylvester–Gallai Theorem",
+    "url": "https://www.futilitycloset.com/2026/07/26/the-sylvester-gallai-theorem/",
+    "hn_url": "https://news.ycombinator.com/item?id=49123247",
+    "source": "HN Top",
+    "score": 5,
+    "comments": 0,
+    "author": "surprisetalk",
+    "date_found": "2026-08-07",
+    "timestamp": 1785506434
+  },
+  {
     "name": "Situational Awareness down 67% in July in AI stock rout",
     "url": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
     "hn_url": "https://news.ycombinator.com/item?id=49122994",
@@ -3583,6 +4056,17 @@
     "ai_summary": "对 DeepSeek V4 Flash 模型的性能、智能水平及定价进行了深度分析。",
     "ai_category": "LLM",
     "ai_notes": "属于核心 LLM 评测与技术分析，且涉及中国 AI 头部公司，符合用户对大模型进展的极高优先级关注。"
+  },
+  {
+    "name": "Learn how chips are made with this Rollercoaster Tycoon-inspired animation",
+    "url": "https://laurentiugabriel.github.io/ChipTycoon/",
+    "hn_url": "https://news.ycombinator.com/item?id=49120149",
+    "source": "HN Top",
+    "score": 105,
+    "comments": 18,
+    "author": "laurentiurad",
+    "date_found": "2026-08-07",
+    "timestamp": 1785483433
   },
   {
     "name": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
@@ -4243,6 +4727,17 @@
     "ai_summary": "开发者利用Claude辅助，以C语言重新实现了Apple的LZRAVEN编解码器并进行了合规性测试。",
     "ai_category": "OpenSource",
     "ai_notes": "展示了AI辅助编程在底层系统开发和逆向工程中的实际应用，属于高质量的技术实践。"
+  },
+  {
+    "name": "Quantego: A Family of Lego Models of IBM Quantum Computers",
+    "url": "https://quantego.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=49112348",
+    "source": "HN Top",
+    "score": 65,
+    "comments": 28,
+    "author": "rbanffy",
+    "date_found": "2026-08-07",
+    "timestamp": 1785429308
   },
   {
     "name": "Solving poker in custom WebGPU kernels",
