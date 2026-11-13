@@ -263,7 +263,11 @@
     "comments": 1,
     "author": "peter_d_sherman",
     "date_found": "2026-11-13",
-    "timestamp": 1794526270
+    "timestamp": 1794526270,
+    "ai_score": 85,
+    "ai_summary": "Axelera AI 推出 Titania 架构，旨在通过优化硬件设计提升 AI 推理的扩展性。",
+    "ai_category": "Infra",
+    "ai_notes": "属于 AI 基础设施领域，关注算力效率提升，符合用户对 AI 基础设施的关注偏好。"
   },
   {
     "name": "Security flaws in popular AI tools have nearly tripled",
@@ -274,7 +278,11 @@
     "comments": 0,
     "author": "joshfischer1108",
     "date_found": "2026-11-13",
-    "timestamp": 1794526218
+    "timestamp": 1794526218,
+    "ai_score": 60,
+    "ai_summary": "研究指出流行 AI 工具的安全漏洞数量在近期增长了近三倍。",
+    "ai_category": "Other",
+    "ai_notes": "涉及 AI 工具的安全性，虽然与 AI 相关，但属于安全领域，非核心关注点。"
   },
   {
     "name": "AI and Virtual Reality Enter the Therapist's Office",
@@ -285,7 +293,11 @@
     "comments": 0,
     "author": "EA-3167",
     "date_found": "2026-11-13",
-    "timestamp": 1794526193
+    "timestamp": 1794526193,
+    "ai_score": 55,
+    "ai_summary": "探讨 AI 和虚拟现实技术在心理治疗领域的应用及潜在影响。",
+    "ai_category": "Other",
+    "ai_notes": "AI 的应用场景探索，与核心关注的 LLM 技术或基础设施关联度较低。"
   },
   {
     "name": "AI-written peer reviews outscored top human experts",
@@ -296,18 +308,11 @@
     "comments": 0,
     "author": "geox",
     "date_found": "2026-11-13",
-    "timestamp": 1794526101
-  },
-  {
-    "name": "Railyard vs. Laravel Cloud: scale-to-zero or a server you own",
-    "url": "https://railyard.run/blog/railyard-vs-laravel-cloud/",
-    "hn_url": "https://news.ycombinator.com/item?id=50475858",
-    "source": "HN New",
-    "score": 1,
-    "comments": 0,
-    "author": "RailyardRun",
-    "date_found": "2026-11-13",
-    "timestamp": 1794525773
+    "timestamp": 1794526101,
+    "ai_score": 80,
+    "ai_summary": "哈佛大学研究发现，AI 撰写的同行评审在盲测中表现优于顶尖人类专家。",
+    "ai_category": "LLM",
+    "ai_notes": "涉及大模型在专业领域的评测对比，符合用户对 LLM 技术突破和评测的关注。"
   },
   {
     "name": "AI #194: Spy versus Guy",
