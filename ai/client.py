@@ -52,8 +52,9 @@ def generate(prompt: str, model: str = "", rate_limit: float = 2.0) -> dict:
             print(f"[Gemini] {m} error {resp.status_code}: {resp.text[:200]}")
             return {}
         except requests.RequestException as e:
-            print(f"[Gemini] {m} request failed: {e}")
-            return {}
+            print(f"[Gemini] {m} request failed: {e}, trying next...")
+            time.sleep(1)
+            continue
 
     print("[Gemini] All models exhausted")
     return {}
