@@ -293,7 +293,11 @@
     "comments": 67,
     "author": "madihaa",
     "date_found": "2026-11-15",
-    "timestamp": 1794695190
+    "timestamp": 1794695190,
+    "ai_score": 85,
+    "ai_summary": "Nvidia 被指通过循环融资手段人为维持高昂的 GPU 价格。",
+    "ai_category": "Infra",
+    "ai_notes": "直接涉及 AI 基础设施核心（GPU），对算力成本和市场动态有重要参考价值。"
   },
   {
     "name": "Are we building multi-agent systems without a proper trust layer?",
@@ -409,7 +413,11 @@
     "comments": 255,
     "author": "armcat",
     "date_found": "2026-11-15",
-    "timestamp": 1794678190
+    "timestamp": 1794678190,
+    "ai_score": 60,
+    "ai_summary": "Lovable 应用因安全漏洞导致用户护照信息及大量私人消息泄露。",
+    "ai_category": "Other",
+    "ai_notes": "虽然涉及应用安全，但与用户关注的 AI 核心领域关联度一般，属于通用安全议题。"
   },
   {
     "name": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
@@ -450,7 +458,11 @@
     "comments": 170,
     "author": "gslin",
     "date_found": "2026-11-15",
-    "timestamp": 1794660345
+    "timestamp": 1794660345,
+    "ai_score": 65,
+    "ai_summary": "科技公司正试图重新定义隐私概念，引发行业与公众关注。",
+    "ai_category": "Other",
+    "ai_notes": "涉及 AI 时代的数据隐私合规问题，对 AI 创业公司的数据策略有潜在影响。"
   },
   {
     "name": "Open-source AI without Jensen",
@@ -2231,7 +2243,11 @@
     "comments": 38,
     "author": "PaulHoule",
     "date_found": "2026-11-15",
-    "timestamp": 1794407529
+    "timestamp": 1794407529,
+    "ai_score": 55,
+    "ai_summary": "希捷推出新型混合硬盘（SSD+HDD），引发关于存储架构的讨论。",
+    "ai_category": "Infra",
+    "ai_notes": "属于底层硬件基础设施，与 AI 算力存储需求有一定关联，但非核心热点。"
   },
   {
     "name": "Atuin Threads: All your agent sessions on every machine",
@@ -2722,7 +2738,11 @@
     "comments": 98,
     "author": "DeepLogin",
     "date_found": "2026-11-15",
-    "timestamp": 1794323248
+    "timestamp": 1794323248,
+    "ai_score": 80,
+    "ai_summary": "研究发现生成式 AI 在处理非英语文本时消耗的能源显著高于英语。",
+    "ai_category": "LLM",
+    "ai_notes": "涉及大模型能效与多语言处理的技术细节，对 AI 基础设施和模型优化有参考意义。"
   },
   {
     "name": "AI Users have workdays up to 90 min longer than non-users",
