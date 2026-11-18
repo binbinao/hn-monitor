@@ -270,6 +270,21 @@
     "ai_notes": "属于 AI Agent 在软件工程领域的实际应用，符合用户对 Agent 领域及开发工具的关注。"
   },
   {
+    "name": "Running coding agents without handing them my credentials",
+    "url": "https://blog.antonio.cx/running-agents-with-lend",
+    "hn_url": "https://news.ycombinator.com/item?id=50526152",
+    "source": "HN Top",
+    "score": 128,
+    "comments": 112,
+    "author": "antoniomika",
+    "date_found": "2026-11-18",
+    "timestamp": 1794878336,
+    "ai_score": 85,
+    "ai_summary": "探讨如何在不直接授予敏感凭据的情况下运行AI编码智能体。",
+    "ai_category": "Agent",
+    "ai_notes": "涉及AI Agent的安全实践，对于AI开发工作流具有很高的实用价值。"
+  },
+  {
     "name": "MAI Code 2 and Code 2 Flash",
     "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
     "hn_url": "https://news.ycombinator.com/item?id=50535885",
@@ -373,6 +388,21 @@
     "ai_summary": "用户对 GPT-6.2 Astra 模型表达了强烈不满。",
     "ai_category": "LLM",
     "ai_notes": "反映了用户对最新大模型实际表现的真实反馈，属于 LLM 领域的重要舆情。"
+  },
+  {
+    "name": "Cerebras Disaggregated Inference",
+    "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+    "hn_url": "https://news.ycombinator.com/item?id=50540472",
+    "source": "HN New",
+    "score": 1,
+    "comments": 0,
+    "author": "emschwartz",
+    "date_found": "2026-11-18",
+    "timestamp": 1794963383,
+    "ai_score": 80,
+    "ai_summary": "Cerebras发布了其解耦推理（Disaggregated Inference）解决方案。",
+    "ai_category": "Infra",
+    "ai_notes": "涉及AI推理算力基础设施的优化，符合对高性能计算和AI基础设施的关注。"
   },
   {
     "name": "Latent Lattice Language Models",
@@ -690,6 +720,21 @@
     "ai_notes": "虽然涉及 AI 应用，但属于个人学术研究回顾，与当前大模型技术突破或核心基础设施关联度较低。"
   },
   {
+    "name": "IMF warns global economy is standing on one leg as AI circular financing surges",
+    "url": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
+    "hn_url": "https://news.ycombinator.com/item?id=50540491",
+    "source": "HN New",
+    "score": 2,
+    "comments": 0,
+    "author": "ryan_j_naughton",
+    "date_found": "2026-11-18",
+    "timestamp": 1794963496,
+    "ai_score": 60,
+    "ai_summary": "IMF警告称AI领域的循环融资现象可能导致全球经济风险。",
+    "ai_category": "Funding",
+    "ai_notes": "关注AI行业的金融风险与资本泡沫，对理解AI创业融资环境有参考意义。"
+  },
+  {
     "name": "Fixing a WebKit bug to see if promises are made of train tracks",
     "url": "https://alistair.sh/thenables",
     "hn_url": "https://news.ycombinator.com/item?id=50499520",
@@ -733,60 +778,5 @@
     "ai_summary": "Nvidia 董事长向投资者重申无意让黄仁勋回归。",
     "ai_category": "Infra",
     "ai_notes": "与 Item 2 内容重复，属于公司治理新闻，对 AI 技术本身影响有限。"
-  },
-  {
-    "name": "Microsoft blames monster email outage on software defect introduced in July fix",
-    "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-    "hn_url": "https://news.ycombinator.com/item?id=50517321",
-    "source": "HN Top",
-    "score": 437,
-    "comments": 334,
-    "author": "Bender",
-    "date_found": "2026-11-18",
-    "timestamp": 1794835102
-  },
-  {
-    "name": "Running coding agents without handing them my credentials",
-    "url": "https://blog.antonio.cx/running-agents-with-lend",
-    "hn_url": "https://news.ycombinator.com/item?id=50526152",
-    "source": "HN Top",
-    "score": 128,
-    "comments": 112,
-    "author": "antoniomika",
-    "date_found": "2026-11-18",
-    "timestamp": 1794878336
-  },
-  {
-    "name": "IMF warns global economy is standing on one leg as AI circular financing surges",
-    "url": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
-    "hn_url": "https://news.ycombinator.com/item?id=50540491",
-    "source": "HN New",
-    "score": 2,
-    "comments": 0,
-    "author": "ryan_j_naughton",
-    "date_found": "2026-11-18",
-    "timestamp": 1794963496
-  },
-  {
-    "name": "Nvidia Has No Plans to Bring Back Jensen Huang",
-    "url": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html",
-    "hn_url": "https://news.ycombinator.com/item?id=50540486",
-    "source": "HN New",
-    "score": 2,
-    "comments": 0,
-    "author": "donohoe",
-    "date_found": "2026-11-18",
-    "timestamp": 1794963473
-  },
-  {
-    "name": "Cerebras Disaggregated Inference",
-    "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
-    "hn_url": "https://news.ycombinator.com/item?id=50540472",
-    "source": "HN New",
-    "score": 1,
-    "comments": 0,
-    "author": "emschwartz",
-    "date_found": "2026-11-18",
-    "timestamp": 1794963383
   }
 ]

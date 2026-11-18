@@ -8,18 +8,11 @@
     "comments": 0,
     "author": "ryan_j_naughton",
     "date_found": "2026-11-18",
-    "timestamp": 1794963496
-  },
-  {
-    "name": "Nvidia Has No Plans to Bring Back Jensen Huang",
-    "url": "https://www.nytimes.com/2026/11/17/business/nvidia-earnings-jensen-huang.html",
-    "hn_url": "https://news.ycombinator.com/item?id=50540486",
-    "source": "HN New",
-    "score": 2,
-    "comments": 0,
-    "author": "donohoe",
-    "date_found": "2026-11-18",
-    "timestamp": 1794963473
+    "timestamp": 1794963496,
+    "ai_score": 60,
+    "ai_summary": "IMF警告称AI领域的循环融资现象可能导致全球经济风险。",
+    "ai_category": "Funding",
+    "ai_notes": "关注AI行业的金融风险与资本泡沫，对理解AI创业融资环境有参考意义。"
   },
   {
     "name": "Cerebras Disaggregated Inference",
@@ -30,7 +23,11 @@
     "comments": 0,
     "author": "emschwartz",
     "date_found": "2026-11-18",
-    "timestamp": 1794963383
+    "timestamp": 1794963383,
+    "ai_score": 80,
+    "ai_summary": "Cerebras发布了其解耦推理（Disaggregated Inference）解决方案。",
+    "ai_category": "Infra",
+    "ai_notes": "涉及AI推理算力基础设施的优化，符合对高性能计算和AI基础设施的关注。"
   },
   {
     "name": "Nvidia's insurance protects board but not company coffers from litigation",
@@ -686,7 +683,11 @@
     "comments": 112,
     "author": "antoniomika",
     "date_found": "2026-11-18",
-    "timestamp": 1794878336
+    "timestamp": 1794878336,
+    "ai_score": 85,
+    "ai_summary": "探讨如何在不直接授予敏感凭据的情况下运行AI编码智能体。",
+    "ai_category": "Agent",
+    "ai_notes": "涉及AI Agent的安全实践，对于AI开发工作流具有很高的实用价值。"
   },
   {
     "name": "How the Claude Code team thinks about verification",
@@ -1107,21 +1108,6 @@
     "ai_summary": "探讨 Nvidia 在 Jensen Huang 领导下的潜在经营风险与挑战。",
     "ai_category": "Infra",
     "ai_notes": "涉及 AI 基础设施核心供应商的经营状况，对算力生态有参考价值。"
-  },
-  {
-    "name": "Microsoft blames monster email outage on software defect introduced in July fix",
-    "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-    "hn_url": "https://news.ycombinator.com/item?id=50517321",
-    "source": "HN Top",
-    "score": 201,
-    "comments": 150,
-    "author": "Bender",
-    "date_found": "2026-11-17",
-    "timestamp": 1794835102,
-    "ai_score": 50,
-    "ai_summary": "微软将近期大规模电子邮件故障归咎于 7 月份修复程序中引入的软件缺陷。",
-    "ai_category": "Other",
-    "ai_notes": "属于大型科技公司基础设施运维事故，虽涉及软件工程，但与 AI 核心领域关联较弱。"
   },
   {
     "name": "Elephant-Goldfish Model",
