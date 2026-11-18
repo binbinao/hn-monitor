@@ -45,7 +45,7 @@ def generate(prompt: str, model: str = "", rate_limit: float = 2.0) -> dict:
             resp = requests.post(url, json=payload, timeout=30)
             if resp.status_code == 200:
                 return _parse(resp)
-            if resp.status_code in (429, 404):
+            if resp.status_code in (429, 404) or resp.status_code >= 500:
                 print(f"[Gemini] {m} returned {resp.status_code}, trying next...")
                 time.sleep(1)
                 continue
